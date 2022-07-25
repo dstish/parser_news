@@ -14,4 +14,4 @@ Python package for parsing HTML and XML documents. It creates a parse tree for p
 The datetime module supplies classes for manipulating dates and times
 
 ## 🚀 How it works
-First, the get_urls() function is launched, which collects links to all articles from the site into a text document url_lists.txt. Next, the parse() function is launched, which passes through each link from the text document url_lists.txt and selects each html element of the page, and later writes it to a csv file.
+First, the get_urls() function is launched, which collects links to all articles from the site into a text document url_list.txt. Next, the parse() function is launched, which passes through each link from the text document url_list.txt and selects each html element of the page, and later writes it to a csv file.
